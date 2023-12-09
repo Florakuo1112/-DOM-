@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+</head>
+<body>
+
+    
+     <div class="container">
+         <ul>
+             <li>
+                <h4>題目一：選取 DOM <br>題目二：修改 DOM <br>題目三：監聽 DOM</h4> 
+                <div data-target id="target" class="target">選我01</div>
+                <div data-target class="target">選我02</div>
+             </li>
+
+             <li>
+                 <h4>題目四：創造、插入 DOM</h4>
+                 <button class="helloWorldBtn">新增你好世界</button>
+                 <p class="d-none">你好世界</p>
+             </li>
+             <li>
+                 <h4>題目五：監聽表單</h4>
+                 <form class="data-form">
+                    <input name="user" type="input" required>
+                    <input type="submit" value="獲取資料" class="submit">
+                  </form>
+
+             </li>
+             <li>
+                 <h4>題目六：加減計數器 <br> 題目七： 加減計數器(進階)</h4>
+                 <div>
+                    <div class="currentNum">0</div> 
+                    <ul class="d-flex">
+                      <li ><button class="plus">+1</button></li>
+                      <li ><button class="reset">Reset</button></li> 
+                      <li ><button class="minus">-1</button></li> 
+                    </ul>
+
+                    <form class="mul-form">
+                        <input type="number" min="0" name="counterMultiplier" placeholder="請輸入計數器要乘多少倍" required>
+                        <input type="submit" value="提交倍數">
+                      </form>
+
+                </div>
+                </li>
+
+                <li>
+                    <h4>題目八：手風琴</h4>
+
+                    <ul class="sec">
+                        <li>
+                            <a href="" > section 1</a>
+                            <p class='d-none'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum quia in incidunt, dolores molestiae consequatur, vitae cumque ab perferendis quas labore ea quaerat architecto itaque nostrum fugit pariatur voluptas ducimus.</p>
+                        </li>
+                        <li>
+                            <a href="" > section 2</a>
+                            <p class='d-none'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum quia in incidunt, dolores molestiae consequatur, vitae cumque ab perferendis quas labore ea quaerat architecto itaque nostrum fugit pariatur voluptas ducimus.</p>
+                        </li>
+                        <li>
+                            <a href=""> section 3</a>
+                            <p class='d-none'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum quia in incidunt, dolores molestiae consequatur, vitae cumque ab perferendis quas labore ea quaerat architecto itaque nostrum fugit pariatur voluptas ducimus.</p>
+                        </li>
+                        <li>
+                            <a href="" > section 4</a>
+                            <p class='d-none'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum quia in incidunt, dolores molestiae consequatur, vitae cumque ab perferendis quas labore ea quaerat architecto itaque nostrum fugit pariatur voluptas ducimus.</p>
+                        </li>
+                    </ul>
+
+                </li>
+
+                <li >
+                    <h4>題目九:頁籤</h4>
+                    <ul class="d-flex justify-content-between pagination">
+                        <li>
+                            <h4 class="london">London</h4>
+                        </li>
+                        <li>
+                            <h4 class="paris">Paris</h4>
+                        </li>
+                        <li>
+                            <h4 class="tokyo">Tokyo</h4>
+                        </li>
+                    </ul>
+                    <h4 class="capital">London</h4>
+                    <p class="description">London is the capital of UK</p>
+                </li>
+
+                <li>
+                    <h4>題目十:代辦事項</h4>
+                    <form class="todoForm" >
+                        <input type="text">
+                        <input type="submit">
+                    </form>
+                    <ul class="todoList">
+                        <!-- <li></li> -->
+                        
+                    </ul>
+                </li>
+         </ul>
+     </div>
+        
+
+     
+    
+</body>
+<script src="./all.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+</html>
